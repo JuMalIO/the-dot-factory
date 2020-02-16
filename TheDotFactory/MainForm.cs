@@ -1954,7 +1954,7 @@ namespace TheDotFactory
             String [] lines = outputString.Split(new string[] {nl}, StringSplitOptions.None);
 
             // for now don't syntax color for more than 2000 lines
-            if (lines.Length > 1500)
+            if (lines.Length > 2000)
             {
                 // just set text
                 outputTextBox.Text = outputString;
